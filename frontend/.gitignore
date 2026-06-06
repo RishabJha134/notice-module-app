@@ -1,0 +1,8 @@
+# frontend/.gitignore
+dist
+build
+# backend/.gitignore
+node_modules
+.env
+.env.example
+
