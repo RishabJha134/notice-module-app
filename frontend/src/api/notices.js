@@ -1,4 +1,4 @@
-const apiBase = import.meta.env.VITE_API_URL || '';
+const apiBase = "https://notice-module-app.onrender.com";
 
 const buildHeaders = (role) => ({
   'Content-Type': 'application/json',
