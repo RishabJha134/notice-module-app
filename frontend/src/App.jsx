@@ -135,7 +135,10 @@ function App() {
                     onChange={(event) => setForm({ ...form, content: event.target.value })}
                   />
                   <div className="flex flex-wrap gap-3">
-                    <button className="rounded-full bg-ink px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800" type="submit">
+                    <button
+                      className="w-full sm:w-auto rounded-full bg-slate-900 px-6 py-3 text-base font-bold text-white shadow-lg"
+                      type="submit"
+                    >
                       {editingId ? 'Update notice' : 'Create notice'}
                     </button>
                     {editingId ? (
